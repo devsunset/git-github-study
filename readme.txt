@@ -3,7 +3,6 @@
 			# GIT-GITHUB-WORK #
 
 --------------------------------------------------------------------------------
-
 --- Git Reference ---
 [[Git]]
 https://git-scm.com/
@@ -29,7 +28,6 @@ https://rogerdudler.github.io/git-guide/index.ko.html
 https://www.pigno.se/barn/tutorial-git/docs/#/?id=innocent-%eb%b0%94%ec%81%98%ec%9e%96%ec%95%84%ec%9a%94-%eb%8b%a4%eb%93%a4
 https://backlog.com/git-tutorial/kr/
 
-
 [[Git Hub]]
 https://github.com/
 https://docs.github.com/en
@@ -39,7 +37,6 @@ https://about.gitlab.com/
 https://bitbucket.org/
 
 --------------------------------------------------------------------------------
-
 --- Git Study ---
 https://www.youtube.com/watch?v=Bd35Ze7-dIw
 https://www.youtube.com/watch?v=FXDjmsiv8fI
@@ -50,7 +47,6 @@ https://backlog.com/git-tutorial/kr/
  https://git-scm.com/book/ko/v2
 
 --------------------------------------------------------------------------------
-
 [[ git simple guide summary]]
 
 * 새로운 저장소 만들기
@@ -138,7 +134,6 @@ git config format.pretty oneline
 git add -i
 
 --------------------------------------------------------------------------------
-
 [[git]]
 
 $ git config --global user.name "devsunset"
@@ -193,3 +188,6 @@ $ git checkout -d new
 $ git rebase
 
 $ git merge
+
+--------------------------------------------------------------------------------
+[[git]]
