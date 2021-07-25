@@ -43,8 +43,7 @@ https://www.youtube.com/watch?v=FXDjmsiv8fI
 https://www.youtube.com/watch?v=GaKjTjwcKQo
 https://rogerdudler.github.io/git-guide/index.ko.html
 https://www.pigno.se/barn/tutorial-git/docs/#/?id=innocent-%eb%b0%94%ec%81%98%ec%9e%96%ec%95%84%ec%9a%94-%eb%8b%a4%eb%93%a4
-https://backlog.com/git-tutorial/kr/
- https://git-scm.com/book/ko/v2
+https://git-scm.com/book/ko/v2
 
 --------------------------------------------------------------------------------
 [[ git simple guide summary]]
@@ -190,4 +189,3 @@ $ git rebase
 $ git merge
 
 --------------------------------------------------------------------------------
-[[git]]
