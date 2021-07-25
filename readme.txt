@@ -136,3 +136,60 @@ git config color.ui true
 git config format.pretty oneline
 파일을 추가할 때 대화식으로 추가하기
 git add -i
+
+--------------------------------------------------------------------------------
+
+[[git]]
+
+$ git config --global user.name "devsunset"
+$ git config --global user.email "devsunset@gmail.com"
+
+$ git init
+
+$ git remote add origin https://github.com/devsunset/git-github-work.git
+
+$ git clone https://github.com/devsunset/git-github-work.git
+
+$ git add .
+$ git add . -f
+
+$ git remote show origin
+
+$ git status
+
+$ git add *
+$ git commit -m "commit message"
+option --amend ; overwrite
+
+fetch
+pull -> fetch + merge
+
+$ git reset HEAD^ --soft
+--soft는 약한특성의 리셋입니다, 되돌릴 때 기존의 인덱스와 워킹트리를 보존합니다.
+--hard는 강한특성의 리셋입니다, 되돌릴 때 기존의 인덱스와 워킹트리를 버립니다.
+--mixed는 중간특성의 리셋입니다, 되돌릴 때 기존의 인덱스는 버리고 워킹트리를 보존합니다.
+
+# 바로 이전 단계로 인덱스와 워킹트리를 버리고 리셋.
+$ git reset HEAD^ --hard 
+# 바로 두번째 전 단계로 인덱스와 워킹트리를 버리고 리셋.
+$ git reset HEAD~2 --hard 
+# 특정 리비전의 기록으로 인덱스는 버리고 워킹트리를 보존하여 리셋.
+$ git reset 991ee8c --mixed
+
+$ git log
+$ git reflog
+
+$ git branch new
+
+$ git checkout new
+
+# 브랜치 new를 생성과 동시에 체크아웃.
+$ git checkout -b new
+
+$ git push new
+
+$ git checkout -d new
+
+$ git rebase
+
+$ git merge
