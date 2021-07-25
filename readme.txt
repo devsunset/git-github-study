@@ -29,6 +29,7 @@ https://rogerdudler.github.io/git-guide/index.ko.html
 https://www.pigno.se/barn/tutorial-git/docs/#/?id=innocent-%eb%b0%94%ec%81%98%ec%9e%96%ec%95%84%ec%9a%94-%eb%8b%a4%eb%93%a4
 https://backlog.com/git-tutorial/kr/
 
+
 [[Git Hub]]
 https://github.com/
 https://docs.github.com/en
@@ -38,6 +39,18 @@ https://about.gitlab.com/
 https://bitbucket.org/
 
 --------------------------------------------------------------------------------
+
+--- Git Study ---
+https://www.youtube.com/watch?v=Bd35Ze7-dIw
+https://www.youtube.com/watch?v=FXDjmsiv8fI
+https://www.youtube.com/watch?v=GaKjTjwcKQo
+https://rogerdudler.github.io/git-guide/index.ko.html
+https://www.pigno.se/barn/tutorial-git/docs/#/?id=innocent-%eb%b0%94%ec%81%98%ec%9e%96%ec%95%84%ec%9a%94-%eb%8b%a4%eb%93%a4
+https://backlog.com/git-tutorial/kr/
+ https://git-scm.com/book/ko/v2
+
+--------------------------------------------------------------------------------
+
 [[ git simple guide summary]]
 
 * 새로운 저장소 만들기
@@ -123,21 +136,3 @@ git config color.ui true
 git config format.pretty oneline
 파일을 추가할 때 대화식으로 추가하기
 git add -i
-
---------------------------------------------------------------------------------
-
-…or create a new repository on the command line
-echo "# git-github-work" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/devsunset/git-github-work.git
-git push -u origin main
-
-…or push an existing repository from the command line
-git remote add origin https://github.com/devsunset/git-github-work.git
-git branch -M main
-git push -u origin main
-
---------------------------------------------------------------------------------
