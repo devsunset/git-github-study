@@ -247,3 +247,9 @@ v1.0.5
 원격 저장소에 올라간 태그를 삭제하기 위해선 :를 사용하여 삭제할 수 있습니다.
 # git push origin :v1.0.0
 
+
+$ git config --global user.name "devsunset"
+$ git config --global user.email devsunset@gmail.com
+$ git config --global credential.helper store
+store  data ~/.git-credentials
+$ git config --global --unset credential.helper
