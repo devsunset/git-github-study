@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 
-			# GIT-GITHUB-WORK #
+			# GIT-GITHUB-STUDY #
 
 --------------------------------------------------------------------------------
 --- Git Reference ---
@@ -140,9 +140,9 @@ $ git config --global user.email "devsunset@gmail.com"
 
 $ git init
 
-$ git remote add origin https://github.com/devsunset/git-github-work.git
+$ git remote add origin https://github.com/devsunset/git-github-study.git
 
-$ git clone https://github.com/devsunset/git-github-work.git
+$ git clone https://github.com/devsunset/git-github-study.git
 
 $ git add .
 $ git add . -f
